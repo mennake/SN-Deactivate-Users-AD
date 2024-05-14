@@ -7,3 +7,5 @@ This is to account for users who show as active in SN (without UPN) who were del
 2) Iterate the resulting GlideRecord and compare each current user record to the records in your import set (I assume you have some unique identifier you could use here).
 3) If the user is not found in the import set, deactivate the user in ServiceNow.
 4) If the user is found, do nothing and move onto the next user record.
+
+https://uscmarshall.service-now.com/kb_view.do?sysparm_article=KB0000946
